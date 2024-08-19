@@ -18,12 +18,9 @@ setaAvancar.addEventListener('click', function () {
         imagemAtual++        
     }
 
-    setaApagar()
+    mostrarOuEsconderSetas()
     esconderImagens()
     mostrarImagem()
-
-    console.log(imagemAtual)
-    console.log(imagens.length)
 })
 
 setaVoltar.addEventListener('click', function () {
@@ -31,15 +28,12 @@ setaVoltar.addEventListener('click', function () {
         imagemAtual--
     }
 
-    setaApagar()
+    mostrarOuEsconderSetas()
     esconderImagens()
     mostrarImagem()
-
-    console.log(imagemAtual)
-    console.log(imagens.length)
 })
 
-function setaApagar(){
+function mostrarOuEsconderSetas(){
     if(imagemAtual === imagens.length - 1){
         setaAvancar.classList.add('seta-apagada')
     } else {

@@ -141,7 +141,7 @@ body {
     font-size: calc(1em + 1vw);
 }
 
-.conteudo-principal .paineis .seta{
+.conteudo-principal .paineis .seta.seta{
     background: url(./images/seta.png) no-repeat center;
     background-size: contain;
     width: 50px;
